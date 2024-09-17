@@ -1,0 +1,175 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+      
+      body {
+        line-height: 1.6;
+        background: lawngreen;
+      }
+
+      .navbar {
+        background: #333;
+        color: #fff;
+        padding: 10px 0;
+      }
+
+      .navbar .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .navbar .logo {
+        font-size: 24px;
+      }
+
+      .navbar .nav-links {
+        list-style: none;
+        display: flex;
+      }
+
+      .navbar .nav-links li {
+        margin: 0 15px;
+      }
+
+      .navbar .nav-links a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .section {
+        padding: 60px 20px;
+        text-align: center;
+      }
+
+      #home {
+        background: burlywood;
+      }
+
+      #about {
+        background: #e2e2e2;
+      }
+
+      #projects {
+        background: wheat;
+      }
+
+      #contact {
+        background: #e2e2e2;
+      }
+
+      .project {
+        margin: 20px 0;
+        padding: 15px;
+        border: 1px solid #ddd;
+      }
+
+      .footer {
+        background: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 20px;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ddd;
+      }
+
+      button {
+        background: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">Gude UshaSri</h1>
+        <ul class="nav-links">
+          <li><a href="portifolio.html">Home</a></li>
+          <li><a href="pabout.html">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+      <div class="container">
+        <h2>Welcome to My Portfolio</h2>
+       <img src="images/ushaapapa.jpeg" class="img-fluid" alt="..." width="200px">
+     
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+          <h2>About Me</h2>
+          <p>
+            Hello! I'm Ushasri Gude, a B.Tech IIIrd year student in the IT branch
+            at Vignan University. I'm an undergraduate student passionate about
+            technology and learning new things.
+          </p>
+          <h3>Hobbies</h3>
+          <ul>
+            Dancing<br>
+            Performing tasks innovatively<br>
+            Listening to music<br>
+            Watching movies<br>
+          </ul>
+          <p>
+            I'm a devotional girl, and my faith is an important part of
+            who I am.
+          </p>
+        </div>
+      </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <!-- Flexbox container for side-by-side layout -->
+            <div class="projects-container" style="display: flex; flex-wrap: wrap; gap: 20px;">
+                <div class="project" style="flex: 1; min-width: 200px;">
+                    <p>Poster Presentation</p>
+                    <img src="images/pro1.jpeg" class="img-fluid" alt="Poster Presentation" width="200px">
+                </div>
+                <div class="project" style="flex: 1; min-width: 200px;">
+                    <p>Deep Learning Dog Breed Identification</p>
+                    <img src="images/dog breed.png" class="img-fluid" alt="Deep Learning Dog Breed Identification" width="200px">
+                </div>
+                <div class="project" style="flex: 1; min-width: 100px;">
+                    <p>Naukri Website Development</p>
+                    <img src="images/naukrii.jpeg" class="img-fluid" alt="Naukri Website Development" width="150px">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; gudeushasri@gmail.com <br>contact us</p>
+      </div>
+    </footer>
+  </body>
+</html>
